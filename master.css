@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+section{
+    width: 100%;
+    z-index: 1;
+}
+.wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    z-index: 10;
+}
+.menubar{
+    width: 1100px;
+    height: 200px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 0;
+}
+.menu{
+    border: 1px solid aqua;
+    margin-top: 30px;
+    width: 100px;
+    text-align: center;
+}
+.menu > a{
+    font-family: 'Noto Sans KR' , sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    letter-spacing: -0.03em;
+    margin: 0 auto;
+}
+.menu > a:hover{
+    transform: all 0.3s;
+    color: #767676;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.box1{background-image: url('img/bg_01.png');}
+.box2{background-image: url('img/bg_02.png');}
+.box3{background-image: url('img/bg_03.png');}
+.box4{background-image: url('img/bg_04.png');}
+.box5{background-image: url('img/bg_05.png');}
+.box6{background-image: url('img/bg_06.png');}
+.box7{background-image: url('img/bg_07.png');}
+.box wrap{
+    width: 1100px;
+    height: 100vh;
+    border: 1px solid blue;
+    position: relative;
+}
+.tit{
+    border: 0px solid red;
+    display: inline-block;
+    position: absolute;
+    left: 50%; transform: translate(-50%);
+    z-index: 11;
+}
+.tit01{top:420px; margin-left:200px;}
+.tit02{top:420px; margin-left:-200px;}
+.tit03{top:420px; margin-left:300px;}
+.tit04{top:420px; margin-left:-340px;}
+.tit05{top:420px; margin-left:250px;}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_frame{
+    width: 1100px;
+    height: 200px;
+    text-align: center;
+    top: 28px;
+}
+
+    
